@@ -1,47 +1,44 @@
 body {
   margin: 0;
 }
-.list{
-  background-image:url(rjs.jpg);
+.list {
+  background-image: url(rjs.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-header a{
+header a {
   text-decoration: none;
 }
-header{
+header {
   display: flex;
   padding: 1em;
 }
-#logo{
+#logo {
   flex: 3;
   font-size: larger;
-  font-weight:bolder;
+  font-weight: bolder;
   color: aliceblue;
 }
-nav{
-  flex:2;
+nav {
+  flex: 2;
   display: flex;
 }
-nav a{
-  flex:1;
-  color:white;
+nav a {
+  flex: 1;
+  color: white;
 }
-nav a:hover{
+nav a:hover {
   color: orange;
 }
-span{
-  color:red;
+span {
+  color: red;
 }
-.content span{
-color: rgb(0, 255, 110);
+.content span {
+  color: rgb(0, 255, 110);
 }
-.content{
+.content {
   text-align: center;
   color: rgb(154, 101, 22);
-  margin-top:200px ;
-}
-.content3{
-  background-color: aliceblue;
+  margin-top: 200px;
 }
